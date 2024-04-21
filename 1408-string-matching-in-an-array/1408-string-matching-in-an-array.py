@@ -1,6 +1,6 @@
 class Solution:
     def stringMatching(self, words: List[str]) -> List[str]:
-        answer: set[str] = []
+        answer: list[str] = []
         for word in words:
             for el in words:
                 if word != el:
